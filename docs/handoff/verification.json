@@ -1,0 +1,163 @@
+{
+  "schema": 1,
+  "record_type": "Consolidated handoff verification; no raw credentials or desktop session logs",
+  "audit_at": "2026-10-19T05:25:40-04:00",
+  "code_baseline": {
+    "repository": "Hieraphant/SpeedofSound",
+    "branch": "feat/moonshine-v2-asr",
+    "sha": "b6a87a069d887b580a465ffb8e347b40ddb5e8b4",
+    "tree": "307dc66d1b68b11daee8168db901cfd3c9b31378",
+    "remote_equals_local": true,
+    "clean": true,
+    "ignored_source_candidates": []
+  },
+  "experiment": {
+    "branch": "test/moonshine-model-reload",
+    "sha": "f981bb8a2226275ac19e436e625b6f71ce7f7b01",
+    "tree": "307dc66d1b68b11daee8168db901cfd3c9b31378",
+    "clean": true,
+    "matches_delivered_tree": true
+  },
+  "independent_reload_fix": {
+    "sha": "dd3ac712a6a64708218dfb379b0387c81f924500",
+    "all_five_files_identical_in_working_repo": true
+  },
+  "dependency": {
+    "vendored": "v1.13.2",
+    "latest_stable_checked": "v1.13.8",
+    "latest_published_at": "2026-09-10T14:00:23Z",
+    "release_url": "https://github.com/k2-fsa/sherpa-onnx/releases/latest",
+    "fix_pr": "https://github.com/k2-fsa/sherpa-onnx/pull/3976",
+    "fix_merge_sha": "3a82dc5caee92380c73c976aec0213e2a775315d",
+    "fix_merged_at": "2026-09-22T08:23:51Z",
+    "fix_to_latest_compare": {
+      "status": "behind",
+      "ahead_by": 0,
+      "behind_by": 16
+    },
+    "resolved": false
+  },
+  "jar_sha256": {
+    "sherpa-onnx-v1.13.2.jar": "772f04285e57f854b60847c5e5b8b93debaee68fdec644fb49c331c18a083443",
+    "sherpa-onnx-native-lib-linux-x64-v1.13.2.jar": "6b9e96bc9d13ca9080eeb65010d5c3cbed1b29848a3b890ad62e2c7f31072eb7",
+    "sherpa-onnx-native-lib-linux-aarch64-v1.13.2.jar": "ed11e9caff63d73fac03e3ecc026dac645a2a340b4a0f5b9076d4ab3e1c7b39e"
+  },
+  "standard_tests": {
+    "total": 190,
+    "core": 186,
+    "app": 4,
+    "cli": 0,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "uncached": true,
+    "source": "Completed prior Host test run, not rerun for a documentation-only handoff"
+  },
+  "native_acceptance": {
+    "original_probe": {
+      "tests": 2,
+      "failures": 2
+    },
+    "corrected_probe": {
+      "tests": 2,
+      "failures": 0
+    },
+    "production_probe": {
+      "tests": 2,
+      "failures": 0
+    },
+    "model_fixture_audio_seconds": 5,
+    "microphone_used_by_agent": false,
+    "note": "Two native probe classes are opt-in, not part of the 190-test standard suite"
+  },
+  "gui_acceptance": {
+    "source": "User-provided desktop log and user-confirmed text",
+    "date": "2026-10-19",
+    "sequence": [
+      "Tiny",
+      "Base",
+      "Tiny",
+      "Base"
+    ],
+    "recognizer_creation_times": [
+      "00:52:35.563",
+      "00:53:02.224",
+      "00:53:47.339",
+      "00:54:21.391"
+    ],
+    "output_characters": [
+      24,
+      23,
+      24,
+      23
+    ],
+    "passed": true,
+    "raw_logs_published": false
+  },
+  "ci": {
+    "sha": "b6a87a069d887b580a465ffb8e347b40ddb5e8b4",
+    "scope": "Original repository PR #1, not upstream; re-read during handoff audit",
+    "runs": [
+      {
+        "name": "Build",
+        "id": 39209383639,
+        "conclusion": "success",
+        "url": "https://github.com/Hieraphant/SpeedofSound/actions/runs/39209383639"
+      },
+      {
+        "name": "JPackage Build",
+        "id": 39209383636,
+        "conclusion": "success",
+        "url": "https://github.com/Hieraphant/SpeedofSound/actions/runs/39209383636"
+      },
+      {
+        "name": "Snap Build",
+        "id": 39209383664,
+        "conclusion": "success",
+        "url": "https://github.com/Hieraphant/SpeedofSound/actions/runs/39209383664"
+      },
+      {
+        "name": "Flatpak Build",
+        "id": 39209383742,
+        "conclusion": "success",
+        "url": "https://github.com/Hieraphant/SpeedofSound/actions/runs/39209383742"
+      }
+    ]
+  },
+  "offline_artifacts": {
+    "unique": 936,
+    "sha512_verified": true,
+    "offline_installShadowDist_passed": true,
+    "initial_gradle_user_home_empty": true,
+    "source": "Prior validated packaging run"
+  },
+  "upstream": {
+    "main": "c233281cdcc4407b5f648de41fceef90dca849cc",
+    "pr125": {
+      "state": "open",
+      "draft": true,
+      "mergeable_state": "dirty",
+      "coordination_comment_id": 6258263909,
+      "coordination_last_updated": "2026-10-19T05:07:32Z",
+      "no_new_maintainer_reply_found": true
+    },
+    "issue194": {
+      "state": "open",
+      "comments": 0,
+      "downstream_success_update_not_posted": true
+    }
+  },
+  "handoff_limits": {
+    "live_claude_session_reviewed": false,
+    "browser_error": "Browser access requires the originating browser context. Open ChatGPT in the browser with the connected extension and try again.",
+    "uploaded_to_claude": false,
+    "prompt_sent_to_claude": false,
+    "claude_downloads_purged": false,
+    "unique_claude_work_assumed_disposable": false
+  },
+  "native_harness_sha256": {
+    "SherpaModelReloadNativeTest.kt": "cf978b2dabdfa2ad843633b895c2f8f86d6ea9186fa2c43ed51cfca875f8debc",
+    "SherpaProductionPluginNativeTest.kt": "b088c22ece5261bf707e78d165e18f9e4bd1340737f37307f288f1271b4e775f"
+  },
+  "privacy": "Do not add raw desktop logs, user settings, tokens, agent session URLs, privilege helpers, or model blobs to this handoff."
+}

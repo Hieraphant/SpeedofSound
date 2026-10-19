@@ -3648,20 +3648,6 @@
   },
   {
     "type": "file",
-    "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-reflect/2.3.0/kotlin-reflect-2.3.0.jar",
-    "sha512": "4c015040675028f553d4ebe5edf487a2288d8d20a2b95269a241e141d4087a23a98878d123b31da5a8637bd5f2daf9548a1df9f93a834ffd054e2befd8213de9",
-    "dest": "offline-repository/org/jetbrains/kotlin/kotlin-reflect/2.3.0",
-    "dest-filename": "kotlin-reflect-2.3.0.jar"
-  },
-  {
-    "type": "file",
-    "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-reflect/2.3.0/kotlin-reflect-2.3.0.pom",
-    "sha512": "12e53c164c83b0f51d0f033107449502b7eb20f32ea6d0efd604e0de0af45d7bc48a73cf104be2791909c7975c127027bede64838ab3df9b1a954bebd7161862",
-    "dest": "offline-repository/org/jetbrains/kotlin/kotlin-reflect/2.3.0",
-    "dest-filename": "kotlin-reflect-2.3.0.pom"
-  },
-  {
-    "type": "file",
     "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-reflect/2.3.21/kotlin-reflect-2.3.21.jar",
     "sha512": "8251a4c44d9deec972a70bca2a9037401f0d1357c48507894f5ae834b61707237fa8ee75e8fd05be83404dc9796daa58ff2a8bc2ad3e4f51603f353ce75b56ec",
     "dest": "offline-repository/org/jetbrains/kotlin/kotlin-reflect/2.3.21",
@@ -3673,6 +3659,20 @@
     "sha512": "73c58bce8ca98d5a84665ca18e3aecf25f76fe2857023b4964b8bee0127763bfc10fa8618ebc147d94b7e0b14c396d4e207c09c9b9ce9b3335a2a9c16a3fcbe8",
     "dest": "offline-repository/org/jetbrains/kotlin/kotlin-reflect/2.3.21",
     "dest-filename": "kotlin-reflect-2.3.21.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-reflect/2.4.0/kotlin-reflect-2.4.0.jar",
+    "sha512": "47ee249c3fded6aa3ef2632d5bc0abb63c40c03407e792ffc6657a7d9609110b5eb7734c0268e6701d7368f354cae7e8c9b18fd80d352601de338710a81bcc0d",
+    "dest": "offline-repository/org/jetbrains/kotlin/kotlin-reflect/2.4.0",
+    "dest-filename": "kotlin-reflect-2.4.0.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-reflect/2.4.0/kotlin-reflect-2.4.0.pom",
+    "sha512": "14029783669cad6605b4f604d678d6c05446a9c326129f9036cc1edb1ea32514054b705fe97cf121dac9b56f02d12ce6083dae5360d650a879bc0b42866549ae",
+    "dest": "offline-repository/org/jetbrains/kotlin/kotlin-reflect/2.4.0",
+    "dest-filename": "kotlin-reflect-2.4.0.pom"
   },
   {
     "type": "file",
@@ -3844,20 +3844,6 @@
   },
   {
     "type": "file",
-    "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib-common/2.3.0/kotlin-stdlib-common-2.3.0.module",
-    "sha512": "0995682bc3816e4e80ec85d511e6bb982efb88c1113181a5f96137a389ac6408ff9f320c88b81fbcc3ee24026e9162d0003ddb7a4b6083f9a138ad9e2dc04e10",
-    "dest": "offline-repository/org/jetbrains/kotlin/kotlin-stdlib-common/2.3.0",
-    "dest-filename": "kotlin-stdlib-common-2.3.0.module"
-  },
-  {
-    "type": "file",
-    "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib-common/2.3.0/kotlin-stdlib-common-2.3.0.pom",
-    "sha512": "706f036e03a2084c9bd790f3d2b462629f23b2fb79039a84f5f548b59b4fdfe3a98206a7c05fb2927e847dade6f43a112ee926f411c1261fee5aa7cadd73a623",
-    "dest": "offline-repository/org/jetbrains/kotlin/kotlin-stdlib-common/2.3.0",
-    "dest-filename": "kotlin-stdlib-common-2.3.0.pom"
-  },
-  {
-    "type": "file",
     "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib-common/2.3.20/kotlin-stdlib-common-2.3.20.pom",
     "sha512": "0501d7afa27f8902e60111fa2fe013ea5e1b761a3d44e76110a890b2435be9fe326802e64662489b5435b8898bd698a1940a7ddb440a5b5c6cd9d4117893613c",
     "dest": "offline-repository/org/jetbrains/kotlin/kotlin-stdlib-common/2.3.20",
@@ -3876,6 +3862,20 @@
     "sha512": "e9f45435cf2fc7d03d9bbddcc8bdb581f89ba22d6b8f362c4bd31d0c03c96193f0d0fe60712a6b712e042b275eabaab379251340192a702eae46160ac102b892",
     "dest": "offline-repository/org/jetbrains/kotlin/kotlin-stdlib-common/2.3.21",
     "dest-filename": "kotlin-stdlib-common-2.3.21.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib-common/2.4.0/kotlin-stdlib-common-2.4.0.module",
+    "sha512": "ee8a2e5a4eeebcecdcda73bf631611a6509a9632b6559d82cdd66f6e4d560271507753f5eb5cd2081042e52d2d95286f93812b5cd2d15e8110ff485843274762",
+    "dest": "offline-repository/org/jetbrains/kotlin/kotlin-stdlib-common/2.4.0",
+    "dest-filename": "kotlin-stdlib-common-2.4.0.module"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib-common/2.4.0/kotlin-stdlib-common-2.4.0.pom",
+    "sha512": "72a1e21205b7466cd9f77d622039aeeb6edafa36eb676c625f6a27c9af2fcf3fbf49564e054758f365804c57188ff1540e50e5caac3fcc87e0838a98c881b193",
+    "dest": "offline-repository/org/jetbrains/kotlin/kotlin-stdlib-common/2.4.0",
+    "dest-filename": "kotlin-stdlib-common-2.4.0.pom"
   },
   {
     "type": "file",
@@ -3991,27 +3991,6 @@
   },
   {
     "type": "file",
-    "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib/2.3.0/kotlin-stdlib-2.3.0.jar",
-    "sha512": "2d19829e49ce79b8587ffc1620f95c4773ec85780f45c609017fa411064c0edbd76fc7c1333775814693258cd9c932d82bc94d18d2c545fc90198fdd3087d6a8",
-    "dest": "offline-repository/org/jetbrains/kotlin/kotlin-stdlib/2.3.0",
-    "dest-filename": "kotlin-stdlib-2.3.0.jar"
-  },
-  {
-    "type": "file",
-    "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib/2.3.0/kotlin-stdlib-2.3.0.module",
-    "sha512": "04bc39c3d5650bc8b212f995fb81e872fe563ce3ecb2ff5355ca33bd1b73b6c44e02fbe9492f2222bfe000a8646bb7e02761d543bd7f4cdb4e49266e01a350d3",
-    "dest": "offline-repository/org/jetbrains/kotlin/kotlin-stdlib/2.3.0",
-    "dest-filename": "kotlin-stdlib-2.3.0.module"
-  },
-  {
-    "type": "file",
-    "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib/2.3.0/kotlin-stdlib-2.3.0.pom",
-    "sha512": "a19afd768945fd94d9a3167b390a6088cd33fdeba5bbd3817e8bf3946f88b9ba3fb370bbe9441347b4d78e60acd3e0fa3e1a4f0f9ec89dd87e3acd60ef2d0305",
-    "dest": "offline-repository/org/jetbrains/kotlin/kotlin-stdlib/2.3.0",
-    "dest-filename": "kotlin-stdlib-2.3.0.pom"
-  },
-  {
-    "type": "file",
     "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib/2.3.20/kotlin-stdlib-2.3.20.jar",
     "sha512": "d509e541f7d2cbb9036060644fc0bb0b7afb1f34aca54c6712b05dad5f356b0cd74840d7709798ddf7e19f90ec9e317c4e58fc54959db1c4468cfe7baf36291b",
     "dest": "offline-repository/org/jetbrains/kotlin/kotlin-stdlib/2.3.20",
@@ -4051,6 +4030,27 @@
     "sha512": "aa709ce4ae3117e23019eae3ec54faa06157972fdfadceccff1186e61c91391970e9b922b2f0b1009a9b01ee05fa2ae4c4fcd3bbfa011859527299cf4f75048f",
     "dest": "offline-repository/org/jetbrains/kotlin/kotlin-stdlib/2.3.21",
     "dest-filename": "kotlin-stdlib-2.3.21.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib/2.4.0/kotlin-stdlib-2.4.0.jar",
+    "sha512": "2bac8b87409ae19aa9d91f8e3faabe9090549d05811249d30dd1811112e37f8650ace8cdcb1f21c96552edecd7d700c448b3ddf80cd4db9f61a3bc7ee3435627",
+    "dest": "offline-repository/org/jetbrains/kotlin/kotlin-stdlib/2.4.0",
+    "dest-filename": "kotlin-stdlib-2.4.0.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib/2.4.0/kotlin-stdlib-2.4.0.module",
+    "sha512": "c8b8970e1ccf8000b962e1d7aa68d49b50ae2a7d3fb324c532ea798c43d6be65e2f04820778f0edbf00660afcda43d7b660bd6c1d3d620bb3f92284b04fb378c",
+    "dest": "offline-repository/org/jetbrains/kotlin/kotlin-stdlib/2.4.0",
+    "dest-filename": "kotlin-stdlib-2.4.0.module"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib/2.4.0/kotlin-stdlib-2.4.0.pom",
+    "sha512": "ce37bd679da72a793e1e2c717a1ad792ddf59832e02120c9d358db543916de2991ec2d3a574c05bd08e06afba0b082e5637bb2c2b8f8b3a043d2104e508fc9e1",
+    "dest": "offline-repository/org/jetbrains/kotlin/kotlin-stdlib/2.4.0",
+    "dest-filename": "kotlin-stdlib-2.4.0.pom"
   },
   {
     "type": "file",
