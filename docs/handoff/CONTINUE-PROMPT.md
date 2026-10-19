@@ -1,10 +1,12 @@
 # Continuation prompt for the receiving Claude Code session
 
-Prepared for transfer; the handing-off assistant could not access the live browser session and has not sent this prompt or requested cleanup there.
+Paste this prompt directly into the receiving Claude Code session. The ongoing workflow is Claude Code + the user + GitHub; the temporary ChatGPT conversation is not involved. No browser reconnection is required.
 
 ---
 
 Take over my existing Speed of Sound repair project using the versioned handoff, not the older assumptions in this session.
+
+**Ownership:** You are the continuing implementation agent. You perform sandbox experiments, automated/native testing, delivery commits, authorized pushes, CI checks and checklist maintenance. I perform desktop/microphone tests on my machine and report results directly to you. GitHub is our code and state exchange. Do not depend on ChatGPT, ask me to reopen the temporary chat, or assume its Host/Browser tools exist in your session. Fetch the versioned handoff directly; an attachment upload is optional if repository access works. Before editing anything else, read `HANDOFF.md` and preserve its scope and cleanup safeguards.
 
 **Authoritative delivery target:** `Hieraphant/SpeedofSound`, branch `feat/moonshine-v2-asr`. Its verified application baseline is `b6a87a069d887b580a465ffb8e347b40ddb5e8b4`; the subsequent handoff-only commit contains `docs/handoff/`. Read `HANDOFF.md`, `CHECKLIST.md` and `verification.json` there. Use `checklist.json` as the status source and regenerate the Markdown/HTML with `render_checklist.py`. The recorded count is **21/25**, not an instruction to check off the remaining four without evidence.
 

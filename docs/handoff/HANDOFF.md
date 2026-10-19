@@ -4,6 +4,12 @@
 
 This document replaces the scattered planning, review, test and delivery write-ups as the continuation brief. It does not replace source code or the checklist. Read `CHECKLIST.md` first, use `checklist.json` as the editable checklist record, and run `python3 docs/handoff/render_checklist.py` after an evidence-backed status change. `checklist.html` is a portable interactive view, not an automatic GitHub monitor.
 
+## Continuing ownership: Claude Code and the user only
+
+The receiving Claude Code agent takes over implementation, sandbox experiments, automated/native testing, delivery commits, authorized normal pushes, CI inspection and the versioned checklist. The user performs desktop/microphone tests and sends results directly to Claude. GitHub carries the code and durable project state between them.
+
+This temporary ChatGPT conversation has no continuing role, approval responsibility or required tool access. Do not ask the user to reopen it, reconnect its Browser/Host tools, or return here for testing, promotion or publication. The user's desktop directories below describe existing local state, not paths or tools presumed available inside Claude's sandbox. Claude supplies exact candidate identifiers and local instructions to the user when a desktop action is needed.
+
 ## 1. The authoritative repository and what is already delivered
 
 **Working target: `Hieraphant/SpeedofSound`, branch `feat/moonshine-v2-asr`.** Do not clone or reset to `main` and conclude that the feature or fixes are missing. `main` has deliberately not been changed. Original draft PR #1 targets this repository's own main; it is not an upstream PR.
@@ -164,6 +170,8 @@ Superseded instructions include “add Moonshine”, “GUI download still untes
 
 Historical documents are not copied wholesale into this public repo. Raw logs contain portal restore/session values and local settings details; credential/privilege notes are deliberately excluded. The exposed GitHub token was confirmed revoked by the user. Preserve backup/evidence folders on the user's machine; no local purge is part of this handoff. The older downloads may still exist as historical records, but these versioned documents are the continuation source of truth.
 
-### Handoff delivery limitation
+### Direct user-to-Claude transfer; no browser prerequisite
 
-Browser's attempt to list the connected tabs failed with: “Browser access requires the originating browser context. Open ChatGPT in the browser with the connected extension and try again.” Therefore the live Claude session has not been reviewed, no upload or continuation prompt has been sent to it, and no sandbox cleanup has been requested or verified. Do not convert this prepared handoff into a claim of successful transfer. Reconnect the originating browser/Work-capable session, inspect its live state first, then send the versioned packet and continuation prompt. The receiving agent must perform the first-pass reconciliation above even after the browser review.
+The user can paste the continuation prompt directly into the existing Claude Code session. The receiving agent fetches the target feature branch and reads the versioned files in `docs/handoff/`; uploading the ZIP is optional when repository access works. Neither reopening this ChatGPT chat nor using its Browser/Host tools is required.
+
+The earlier browser review did not occur, so no claim has been made that the live Claude sandbox was inspected or cleaned. Claude must assess its own current tasks, unique work and repository access using the first-pass reconciliation above before purging obsolete session-owned downloads. A clean, verified setup replaces stale assumptions, not unique source, Git history or the user's desktop data.
