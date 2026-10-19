@@ -86,6 +86,11 @@ make snap-remove     # Uninstall the locally installed snap
 
 ### Flatpak
 
+Flatpak builds use the Gradle supplied by the OpenJDK SDK extension, not the project wrapper.
+Keep the wrapper aligned with that SDK toolchain and regenerate `buildSrc/flatpak-sources.json`,
+`core/flatpak-sources.json`, and `app/flatpak-sources.json` with `make flatpak-sources` after changing it.
+A normal local build can pass while stale offline dependency files fail inside Flatpak.
+
 To build and run the application as a Flatpak, install the Flathub repository user-wide:
 
 ```bash
