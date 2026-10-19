@@ -2,6 +2,13 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Active repair handoff
+
+Before continuing this repair project, read [the consolidated handoff](docs/handoff/HANDOFF.md)
+and [the current checklist](docs/handoff/CHECKLIST.md). The validated delivery target is
+`Hieraphant/SpeedofSound:feat/moonshine-v2-asr`, not `main` or the separate upstream review branches.
+Keep the approved experiment → test → apply → normal push → verify workflow and its stated boundaries.
+
 ## Project Overview
 
 Speed of Sound is a voice-typing application for the Linux desktop.
@@ -58,7 +65,7 @@ Desktop Portal via Stargate.
 
 ## Key Technical Details
 
-- **Kotlin 2.3.10**, JVM toolchain Java 25, Gradle 9.7.1 with Kotlin DSL
+- **Kotlin plugin catalog pin 2.3.20**, JVM toolchain Java 25, Gradle 9.7.1 with Kotlin DSL
 - **JVM flag required:** `--enable-native-access=ALL-UNNAMED` (for java-gi native bindings)
 - Sherpa ONNX JARs are local in `core/libs/` (x64 + aarch64, version 1.13.2)
 - ASR models stored in `$XDG_DATA_HOME/speedofsound/models/` (or `~/.local/share/speedofsound/models/`)
